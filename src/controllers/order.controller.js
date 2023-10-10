@@ -128,7 +128,6 @@ const sendMail = async (req, res) => {
     }
 }
 
-
 module.exports = {
   createOrder,
   getOrderList,

@@ -20,9 +20,6 @@ app.use(bodyParser.json());
 app.use(cors());
 app.options("*", cors());
 
-/**img */
-app.use(express.static(path.join(__dirname, `./public`)));
-
 /** Routes with Namespace (/v1) */
 app.use("/v1", routes);
 
