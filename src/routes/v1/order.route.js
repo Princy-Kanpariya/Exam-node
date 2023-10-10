@@ -36,7 +36,7 @@ router.delete(
   orderController.deleteOrder
 );
 
-/**send mail */
+// send mail
 router.post(
     "/sendMail",
     orderController.sendMail
